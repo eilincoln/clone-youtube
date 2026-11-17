@@ -8,11 +8,39 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   <header class="header">
+    <div class="header-left">
+      <button class="icon-btn" aria-label="Abrir menu">
+        <span class="material-symbols-rounded">menu</span>
+      </button>
+
+      <a href="#" class="logo">
+        <span class="logo-icon material-symbols-rounded">play_arrow</span>
+        BertoTube
+      </a>
+    </div><!--header-left-->
+
+    <form class="search">
+      <input type="search" placeholder="Pesquisar">
+      <button class="icon-btn" type="submit" aria-label="Pesquisar">
+        <span class="material-symbols-rounded">search</span>
+      </button>
+    </form><!--search-->
+
+    <div class="header-right">
+      <button class="icon-btn" aria-label="Enviar vídeo">
+        <span class="material-symbols-rounded">add</span>
+      </button>
+      <button class="icon-btn" aria-label="Notificações">
+        <span class="material-symbols-rounded">notifications</span>
+      </button>
+      <span class="avatar">L</span>
+    </div>
 
   </header>
 
